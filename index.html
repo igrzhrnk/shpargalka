@@ -30,7 +30,44 @@
         </dl>
     </section>
     <section id="#npm">
-        
+        <h2>Список команд npm</h2>
+        <dl>
+            <dt><code>npm install package_name</code></dt>
+            <dd>Встановлення пакета package_name локального.</dd>
+
+            <dt><code>npm install -g package_name</code></dt>
+            <dd>Встановлення пакета package_name глобально.</dd>
+
+            <dt><code>npm install package_name -save</code></dt>
+            <dd>Встановлює пакет локально і створює посилання на пакет в файлі <code>package.json</code>.</dd>
+
+            <dt><code>npm install package_name -save-dev</code></dt>
+            <dd>Встановлює пакет локально і створює посилання на пакет в файлі <code>package.json</code> якщо він потрібний тільки для розробки.</dd>
+
+            <dt><code>npm uninstall package_name</code></dt>
+            <dd>Видаляє локальний пакет <code>package_name</code>.</dd>
+
+            <dt><code>npm uninstall -g package_name</code></dt>
+            <dd>Видаляє глобальний пакет <code>package_name</code>.</dd>
+
+            <dt><code>npm uninstall -save (or --save-dev) package_name</code></dt>
+            <dd>Для видалення локального пакета разом з видаленням посилання на нього з файла <code>package.json</code>..</dd>
+
+            <dt><code>npm outdated</code></dt>
+            <dd>Виводить список застарілих пакетів з зазначенням номерів версій.</dd>
+
+            <dt><code>npm update</code></dt>
+            <dd>Оновлює всі локальні пакети.</dd>
+
+            <dt><code>npm update package_name</code></dt>
+            <dd>Оновлює локальний пакет <code>package_name</code>.</dd>
+
+            <dt><code>npm update -g</code></dt>
+            <dd>Оновлює всі глобальні пакети.</dd>
+
+            <dt><code>npm update -g package_name</code></dt>
+            <dd>Оновлює глобальний пакет <code>package_name</code>.</dd>
+        </dl>
     </section>
 </body>
 </html>
